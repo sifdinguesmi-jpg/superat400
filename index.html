@@ -1,82 +1,180 @@
-
+Saif Din <din93971@gmail.com>
+	
+3:56 AM (1 minute ago)
+	
+	
+to me
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>سوبيرات قواس 400 مسكن</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سوبر ماركت قواس 400 مسكن</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body { background-color: #f0f2f5; font-family: Arial, sans-serif; text-align: center; direction: rtl; padding: 20px; }
-        .container { background: white; max-width: 600px; margin: auto; padding: 20px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-        h1 { color: #1a73e8; margin-bottom: 5px; }
-        h2 { background: #e8f0fe; color: #1a73e8; padding: 10px; border-radius: 8px; font-size: 18px; margin-top: 30px; text-align: right; }
-        .product-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin: 15px 0; }
-        .card { background: #fff; border: 1px solid #ddd; padding: 10px; border-radius: 10px; width: 140px; }
-        .card img { width: 100%; border-radius: 8px; height: 100px; object-fit: cover; }
-        .card strong { display: block; margin-top: 8px; font-size: 14px; }
-        .price { color: #27ae60; font-weight: bold; margin-top: 5px; }
-        .btn-wa { background-color: #25d366; color: white; padding: 15px 30px; text-decoration: none; border-radius: 30px; display: inline-block; font-weight: bold; margin-top: 30px; position: sticky; bottom: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        :root {
+            --primary-color: #27ae60;
+            --secondary-color: #2c3e50;
+            --bg-color: #f4f7f6;
+        }
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            color: var(--secondary-color);
+        }
+        header {
+            background: linear-gradient(135deg, #27ae60, #2ecc71);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section-title {
+            background: #fff;
+            padding: 10px 20px;
+            border-right: 5px solid var(--primary-color);
+            margin: 30px 0 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid #eee;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .card h3 {
+            font-size: 1rem;
+            margin: 10px 0;
+            height: 40px;
+        }
+        .price {
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.2rem;
+            display: block;
+            margin-bottom: 15px;
+        }
+        .whatsapp-btn {
+            background-color: #25D366;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            display: inline-block;
+            font-weight: bold;
+            margin: 40px 0;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
     </style>
 </head>
 <body>
 
+<header>
+    <h1>سوبر ماركت قواس 400 مسكن</h1>
+    <p>أفضل السلع بأفضل الأسعار في أدرار</p>
+</header>
+
 <div class="container">
-    <h1>سوبيرات قواس 400 مسكن</h1>
-    <p>حي 400 مسكن - أدرار | خدمة التوصيل متوفرة</p>
-
-    <h2>قسم القهوة والشاي</h2>
+    
+    <h2 class="section-title">☕ مشروبات ساخنة</h2>
     <div class="product-grid">
         <div class="card">
-<img src="https://i.ibb.co/3LYn5WC/famico.jpg" alt="فاميكو">
-            <strong>قهوة فاميكو</strong>
-            <p class="price">250 دج</p>
+            <img src="https://i.ibb.co/3LYn5WC/famico.jpg" alt="قهوة فاميكو">
+            <h3>قهوة فاميكو</h3>
+            <span class="price">700 ألف دج</span>
         </div>
         <div class="card">
-            <img src="https://m.media-amazon.com/images/I/41-N7mB7uKL.jpg" alt="ميلا">
-            <strong>قهوة ميلا</strong>
-            <p class="price">240 دج</p>
+            <img src="https://i.ibb.co/L5pC6Xm/1001.png" alt="قهوة 1001">
+            <h3>قهوة 1001</h3>
+            <span class="price">700 ألف دج</span>
         </div>
         <div class="card">
-            <img src="https://prix-algerie.com/images/products/the-essabat-100g-3213.jpg" alt="شاي">
-            <strong>شاي الصباط</strong>
-            <p class="price">150 دج</p>
+            <img src="https://i.ibb.co/r7v9t94/soltan.jpg" alt="شاي سلطان">
+            <h3>شاي سلطان الصحراء</h3>
+            <span class="price">25 ألف دج</span>
+        </div>
+        <div class="card">
+            <img src="https://i.ibb.co/gPZ2m6P/rakim.jpg" alt="شاي الرقيم">
+            <h3>شاي الرقيم</h3>
+            <span class="price">25 ألف دج</span>
         </div>
     </div>
 
-    <h2>الألبان والياغورت</h2>
+    <h2 class="section-title">🍝 قسم العجائن</h2>
     <div class="product-grid">
         <div class="card">
-            <img src="https://e-itmar.com/1314-large_default/lait-entier-candia-1l.jpg" alt="حليب">
-            <strong>حليب كانديا</strong>
-            <p class="price">110 دج</p>
+            <img src="https://i.ibb.co/xX4G2mF/benamor.jpg" alt="مقارون بن عمر">
+            <h3>مقارون عمر بن عمر</h3>
+            <span class="price">10 آلاف دج</span>
         </div>
         <div class="card">
-            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=200" alt="ياغورت">
-            <strong>ياغورت (علبة)</strong>
-            <p class="price">25 دج</p>
+            <img src="https://i.ibb.co/BccCdfM/mama.jpg" alt="مقارون ماما">
+            <h3>مقارون ماما</h3>
+            <span class="price">10 آلاف دج</span>
         </div>
     </div>
 
-    <h2>المشروبات والصودا</h2>
+    <h2 class="section-title">🧼 قسم المنظفات</h2>
     <div class="product-grid">
         <div class="card">
-            <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=200" alt="صودا">
-            <strong>كوكاكولا 1.5 لتر</strong>
-            <p class="price">180 دج</p>
+            <img src="https://i.ibb.co/D4mN8vW/bref.png" alt="جافيل بريف">
+            <h3>ماء جافيل بـريـف</h3>
+            <span class="price">200 ألف دج</span>
+        </div>
+        <div class="card">
+            <img src="https://i.ibb.co/p0hW6P2/pril-yellow.jpg" alt="بريل أصفر">
+            <h3>Pril ISIS أصفر</h3>
+            <span class="price">200 دج</span>
+        </div>
+        <div class="card">
+            <img src="https://i.ibb.co/Qv0Q7yR/pril-blue.jpg" alt="بريل أزرق">
+            <h3>Pril ISIS أزرق</h3>
+            <span class="price">200 دج</span>
         </div>
     </div>
 
-    <h2>قسم مواد التنظيف</h2>
-    <div class="product-grid">
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1584622781564-1d9876a13d00?w=200" alt="صابون">
-            <strong>صابون أومـو</strong>
-            <p class="price">450 دج</p>
-        </div>
+    <div style="text-align: center;">
+        <a href="https://wa.me/213XXXXXXXXX" class="whatsapp-btn">اطلب الآن عبر واتساب</a>
     </div>
 
-    <a href="https://wa.me/213666744650" class="btn-wa">إرسال قائمة الطلبات عبر واتساب</a>
 </div>
+
+<footer>
+    <p>جميع الحقوق محفوظة لـ سوبر ماركت قواس - حي 400 مسكن - أدرار</p>
+</footer>
 
 </body>
 </html>
-
